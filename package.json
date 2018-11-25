@@ -1,0 +1,30 @@
+{
+  "name": "baccaratsolver",
+  "description": "Javascript baccarat solver.",
+  "homepage": "https://github.com/wschmrdr/baccaratsolver",
+  "keywords": [
+    "baccarat",
+    "mini-baccarat",
+    "baccarat-evaluator"
+  ],
+  "authors": [
+    "wschmrdr <wschmrdr@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wschmrdr/baccaratsolver.git"
+  },
+  "main": "baccaratsolver.js",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "engines": [
+    "node >= 4.0.0"
+  ]
+}
